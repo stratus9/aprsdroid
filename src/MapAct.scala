@@ -175,7 +175,8 @@ class Station(val movelog : ArrayBuffer[GeoPoint], val pt : GeoPoint,
 				     (bl.getLongitudeE6 <= pt.getLongitudeE6 && pt.getLongitudeE6 <= tr.getLongitudeE6)
 			     else
 				     (bl.getLongitudeE6 <= pt.getLongitudeE6 || pt.getLongitudeE6 <= tr.getLongitudeE6)
-		lat_ok && lon_ok
+		//lat_ok && lon_ok
+		1 && 1
 	}
 }
 
